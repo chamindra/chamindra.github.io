@@ -5,29 +5,20 @@ current:
     url: https://github.com/finos/ai-governance-framework
   - role: FINOS InnerSource SIG Co-Lead
     url: https://github.com/finos/InnerSource
-  - role: STAC AI Working Group Member
-    url: https://stacresearch.com/
-  - role: Director, Sahana Foundation
+  - role: Emiritus Director, Sahana Foundation
     url: https://www.sahanafoundation.org/
   - role: Advisor, Eco-Friendly Web Alliance
     url: https://ecofriendlyweb.org/people/chamindra-de-silva/
-  - role: Concept Founder, HFOSS
-    url: http://www.hfoss.org/
-  - role: MEng, Magdalen College, Oxford
-    url: https://www.magd.ox.ac.uk/
-  - role: Values — Christian
-    url: https://www.st-helens.org.uk/
+  - role: Scout Leader, 6th Sevenoaks
+    url: https://sevenoaksscouts.org.uk/
 
 expertise:
-  - AI Governance & Compliance
-  - Lean Product Engineering
-  - Open Innovation Models
+  - AI Governance & Compliance 
   - Open / API Banking
-  - Open Source Models
-  - InnerSource Models
+  - Open Source Product Leadership
+  - InnerSource Product Leadership
   - Cloud / k8s Engineering
   - Technical Program Management
-  - AI-native Solutions Architecture
   - Certified Technical Product Owner
 
 awards:
