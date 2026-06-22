@@ -1,42 +1,22 @@
 ---
 layout: post
-title: "#SustainableInnovation and the Next Generation Innovator"
+title: "#SustainableInnovation and the next generation innovator"
 date: 2015-10-02
 categories: [sustainability]
 tags: [sustainability, SDG, innovation, SustainableInnovation, UNDP]
-excerpt: "How innovators must actively disrupt unsustainable processes — elaborating on the UNDP Social Good Summit presentation on accelerating the SDGs through technology."
-blogspot_url: "https://chamindra-de-silva.blogspot.com/2015/10/sustainableinnovation-and-next.html"
-linkedin_url: "https://uk.linkedin.com/in/chamindra"
+original_url: https://chamindra-de-silva.blogspot.com/2015/10/sustainableinnovation-and-next.html
 external_url: "http://tinyurl.com/sti4sdg"
 external_label: "UNDP Social Good Summit Presentation"
 ---
 
-*Elaborating on the [UNDP Social Good Summit Presentation](http://tinyurl.com/sti4sdg).*
+Elaborating on the UNDP Social Good Summit Presentation (http://tinyurl.com/sti4sdg), we need to act to bring nature back into harmony with us humans. The world is in a decline due to our unsustainable use of it's resources. No one will take action unless we as individuals foster the right thinking and action in our homes, companies and public orgs. Corporates are stuck in their microcosms of competition to deliver pure profit/shareholder value. What is the point of turning in a profit/shareholder value, if you end up with a destroyed world where that value means so much less. Innovators have a key role to play to help connect the dots and disrupt unsustainable processes and technology with sustainable alternatives that creates multiplies in the supply chain. Innovators are often too passionate about technology that they forget to think about the big picture of the impact that that innovation will have on the world. Innovation = #SustainableInnovation is the new way we should think as scientists, inventors and innovators.
 
-We need to act to bring nature back into harmony with us humans. The world is in decline due to our unsustainable use of its resources. No one will take action unless we as individuals foster the right thinking and action in our homes, companies, and public organisations.
+Here how to identify unsustainable process and technologies that you can disrupt with sustainable innovation. Often this also results in costs savings to the bottomline as well, but it should not have to:
 
-Corporates are stuck in microcosms of competition to deliver pure shareholder value. But what is the point of profit if you end up with a destroyed world in which that value means so much less?
+- What is the waste the business process produces? How much can that amount to in a year? What new tech can be applied to reduce wastage? (e.g. Can we have more just in time approaches)
+- Can the waste of one business process be recycled for another process also saving resource costs? (e.g biofuel created by waste)
+- How much energy saving does applying technology Y provide against previous technology X. TCO should always factor energy used. (e.g. Moving from physical server machines to the cloud)
+- How much no-renewable raw material is needed to create energy for the business process (e.g. can we add solar?)
+- What if the product/service line becomes tremendously successful? Can you sustain growth sustainably? How can you create economies of scale such that the resource impact is better than linear?
 
-Innovators have a key role to play — connecting dots, disrupting unsustainable processes, and replacing them with sustainable alternatives that create multiplying effects across supply chains. Innovators are often so passionate about the technology itself that they forget to consider the broader impact of that innovation on the world.
-
-The new equation is: **Innovation = #SustainableInnovation**.
-
-## How to identify unsustainable processes to disrupt
-
-Here is a practical framework for identifying where innovation can create sustainable impact — often with direct cost benefits:
-
-- **What waste does the business process produce?** How much does this accumulate in a year? What technology can reduce wastage? *(e.g. just-in-time approaches, demand sensing)*
-- **Can the waste of one process be recycled for another?** *(e.g. biofuel from process waste, heat recovery)*
-- **How much energy does the existing technology consume vs the alternative?** TCO should always factor energy use. *(e.g. migrating from physical servers to cloud)*
-- **How much non-renewable raw material is needed?** *(e.g. can solar or other renewables substitute?)*
-- **What if the product becomes tremendously successful?** Can you sustain that growth sustainably? Can you create economies of scale where resource impact is better than linear?
-
-## The call to the next generation
-
-Become a #SustainableInnovator. The generation that treats innovation as purely a growth or value-creation exercise, without accounting for environmental and social externalities, is leaving a problem for the next generation to solve — at a far higher cost.
-
-The innovators who will matter most in the decades ahead are those who can simultaneously create value *and* reduce the resource footprint of doing so. These are not opposing forces. The most durable competitive advantages will be built on sustainability.
-
----
-
-*This post elaborates on a presentation delivered at the UNDP Social Good Summit on the day of the Sustainable Development Goals launch, September 2015. See also: [Ideas on Accelerating the SDGs Using Technology and Innovation](/2015/09/28/ideas-sdgs-technology-innovation/).*
+Become a Next Generation Innovator, become a #SustainableInnovator, or your generation will not have a world to enjoy your success. It is up to you.

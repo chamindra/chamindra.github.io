@@ -459,6 +459,16 @@ body {
 
 .post-body strong { color: var(--text-primary); font-weight: 500; }
 
+.post-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2rem auto;
+  border: 0.5px solid var(--amber-dim);
+  border-radius: 2px;
+  opacity: 0.9;
+}
+
 .post-footer {
   margin-top: 2rem;
   padding-top: 1rem;
