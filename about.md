@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
+<p class="claude-note"><em>This summary was created by GenAI based on evidence.</em></p>
+
 ## Chamindra de Silva
 
 Chamindra de Silva is an **AI-native Solutions Architect and Certified Technical Product Owner** with 20+ years of experience leading high-performance engineering and transformation initiatives across global financial institutions. His expertise spans **GenAI, regulatory compliance, InnerSource, and DevOps**, with platforms and contributions recognised by **Gartner, MIT, Stevie Awards, BIAN, UNDP, and the Free Software Foundation**.
 
-He holds **awarded patents in Generative AI (2024–2025)** focused on regulatory compliance and AI governance systems. At **Citi**, he works within High Performance Architecture, integrating GenAI into low-latency financial systems while embedding governance, explainability, and secure SDLC practices.
+He holds **awarded patents in Generative AI (2024–2025)** focused on regulatory compliance and AI governance systems.
 
 He is a **Maintainer of the [FINOS AI Governance Framework](https://github.com/finos/ai-governance-framework)**, **Co-Lead of the FINOS InnerSource SIG**, and member of the **STAC AI Working Group**, shaping industry standards for responsible and high-performance AI adoption in financial services.
 
@@ -21,10 +23,6 @@ His current focus: **shaping how GenAI is safely integrated into regulated finan
 Chamindra is a [Christian](https://www.st-helens.org.uk/), and his faith shapes how he approaches his work — as a vocation rather than a career, oriented toward the long-term flourishing of people and communities rather than short-term commercial gain. This is most visible in his sustained commitment to humanitarian open source, sustainability, and community-governed technology: work that is difficult, slow, and often unrewarded by conventional metrics, but worth doing.
 
 He believes technology serves best when it is accountable, transparent, and governed by people who care about its effects on those least able to protect themselves from its failures.
-
-## GenAI Integration in Regulated Finance
-
-At Citi's High Performance Architecture team, Chamindra integrates GenAI capabilities into ultra-low-latency trading and settlement systems—a domain where milliseconds matter and governance cannot be an afterthought. His work demonstrates how foundation models, RAG pipelines, and agentic workflows can enhance financial decision-making, risk assessment, and operational intelligence while maintaining explainability, auditability, and compliance.
 
 ## AI Governance
 
