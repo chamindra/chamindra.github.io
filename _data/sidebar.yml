@@ -1,0 +1,112 @@
+expertise:
+  - Innovation Director
+  - Lean Product Engineering
+  - Open Innovation Models
+  - Open / API Banking
+  - Open Source Models
+  - Inner Source Models
+  - Cloud / k8s Engineering
+  - Technical Program Management
+  - AI-native Solutions Architecture
+  - Certified Technical Product Owner
+
+products:
+  - name: Sahana Open Source DMS
+    url: https://sahanafoundation.org/about/
+  - name: Open Innovation Platform
+    url: https://apixplatform.com/static/about/
+  - name: Akura School Management
+    url: https://sourceforge.net/projects/akura/
+  - name: Rehabilitation Management
+    url: https://newsroom.virtusa.com/news-room/press-releases/year_2014/February/1760
+  - name: Magdalen Means Business Exhibit
+    url: https://magdalenmeansbusiness.magd.ox.ac.uk/power-of-software/
+
+current:
+  - role: FINOS InnerSource SIG Lead
+    url: https://github.com/finos/InnerSource
+  - role: Director, Sahana Foundation
+    url: https://www.sahanafoundation.org/
+  - role: DevOps PO & InnerSource Lead, CitiBank UK
+    url: https://uk.linkedin.com/in/chamindra
+  - role: Advisor, Eco-Friendly Web Alliance
+    url: https://ecofriendlyweb.org/people/chamindra-de-silva/
+  - role: Charter Member, OSI
+    url: https://opensource.org/
+  - role: MIT GITA Technovator 2007
+    url: http://web.mit.edu/technovators/gita/2007_winners_grassroots.html
+  - role: FSF Social Benefit Award 2006
+    url: https://www.fsf.org/news/social-benefit-award-2006
+  - role: Concept Founder, HFOSS
+    url: http://www.hfoss.org/
+  - role: MEng, Magdalen College, Oxford
+    url: https://www.magd.ox.ac.uk/
+  - role: Values — Christian
+    url: https://www.st-helens.org.uk/
+
+past:
+  - role: VP Engineering, Virtusa
+    url: http://www.virtusa.com
+  - role: CTO, Sahana Foundation
+    url: https://sahanafoundation.org/
+  - role: Co-Chair W3C EIIF IG
+    url: https://www.w3.org/2005/Incubator/eiif/
+  - role: Head of Platforms, xLabs (Virtusa)
+    url: null
+  - role: Member, ISCRAM
+    url: https://iscram.org/
+  - role: Acting Exec Director, LSF
+    url: https://opensource.lk/
+  - role: Board Advisor, HFOSS Project
+    url: http://www.hfoss.org/index.php/people
+
+publications:
+  - venue: "CACM · Dec 2010"
+    title: "A Global Collaboration to Deploy Help to China"
+    url: "http://portal.acm.org/citation.cfm?id=1859235"
+  - venue: "FT Sri Lanka"
+    title: "Software of the People, Built by the People"
+    url: "http://www.ft.lk/columns/Software-owned-of-the-people-built-by-the-people-for-the-people/4-695920"
+  - venue: "Chapman & Hall / CRC"
+    title: "Software Development: An Open Source Approach"
+    url: "http://www.amazon.com/Software-Development-Approach-Innovations-Engineering/dp/143981290X"
+  - venue: "UN APCICT / ESCAP"
+    title: "ICT for Disaster Risk Reduction: Sahana Haiti"
+    url: "http://www.unapcict.org/ecohub/ict-for-disaster-risk-reduction-1"
+  - venue: "OSBR"
+    title: "Humanitarian Free and Open Source Software"
+    url: "http://www.osbr.ca/ojs/index.php/osbr/article/view/1220/1168"
+  - venue: "TechRepublic / ZDNet"
+    title: "10 Questions: Selecting Open Source"
+    url: "http://downloads.techrepublic.com.com/abstract.aspx?docid=1238425"
+  - venue: "PeaceIT / CMI"
+    title: "The Concept of Humanitarian FOSS"
+    url: "http://www.cmi.fi/files/peaceIT_3.pdf"
+  - venue: "CACM"
+    title: "FOSS for Disaster Management"
+    url: "http://portal.acm.org/citation.cfm?id=1226736.1226768"
+
+labels:
+  - open source
+  - sahana
+  - disaster management
+  - hfoss
+  - innersource
+  - SDG
+  - mobile
+  - cloud
+  - open standards
+  - sri lanka
+  - licenses
+  - haiti
+  - olpc
+  - virtusa
+  - iscram
+  - apache
+  - interop
+  - sustainability
+  - conference
+  - education
+  - ai
+  - fintech
+  - finos

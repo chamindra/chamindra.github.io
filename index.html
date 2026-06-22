@@ -1,0 +1,57 @@
+---
+layout: default
+title: Chamindra de Silva
+---
+<div class="feed-header">
+  <div class="feed-label">// transmissions</div>
+</div>
+
+<div class="cat-filters">
+  <button class="cat-filter cf-all" onclick="filterPosts(this,'all')">all</button>
+  <button class="cat-filter cf-os"    onclick="filterPosts(this,'open-source')">open source</button>
+  <button class="cat-filter cf-is"    onclick="filterPosts(this,'innersource')">innersource</button>
+  <button class="cat-filter cf-ai"    onclick="filterPosts(this,'ai')">ai</button>
+  <button class="cat-filter cf-hfoss" onclick="filterPosts(this,'hfoss')">hfoss</button>
+  <button class="cat-filter cf-sus"   onclick="filterPosts(this,'sustainability')">sustainability</button>
+  <button class="cat-filter cf-gen"   onclick="filterPosts(this,'general')">general</button>
+</div>
+
+<div class="brass-sep"></div>
+
+{% for post in site.posts %}
+{% assign cat = post.categories | first %}
+<div class="post-item" data-category="{{ cat | slugify }}">
+  <div class="post-meta">
+    <span class="post-cat-badge pcb-{{ cat | slugify }}">{{ cat }}</span>
+    <span class="post-date">{{ post.date | date: "%Y.%m" }}</span>
+    {% assign age_secs = post.date | date: "%s" | plus: 0 %}
+    {% assign now_secs = site.time | date: "%s" | plus: 0 %}
+    {% assign diff_secs = now_secs | minus: age_secs %}
+    {% if diff_secs < 15552000 %}<span class="post-new">new</span>{% endif %}
+  </div>
+  <div class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+  <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</div>
+  <div class="post-sources">
+    {% if post.blogspot_url %}<a href="{{ post.blogspot_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; blogspot</a>{% endif %}
+    {% if post.linkedin_url %}<a href="{{ post.linkedin_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; linkedin</a>{% endif %}
+    {% if post.external_url %}<a href="{{ post.external_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; {{ post.external_label | default: 'article' }}</a>{% endif %}
+    {% if post.acm_url %}<a href="{{ post.acm_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; acm</a>{% endif %}
+  </div>
+</div>
+{% endfor %}
+
+<script>
+(function() {
+  var active = 'all';
+  window.filterPosts = function(btn, cat) {
+    active = cat;
+    document.querySelectorAll('.cat-filter').forEach(function(b) { b.style.fontWeight = ''; });
+    btn.style.fontWeight = 'bold';
+    document.querySelectorAll('.post-item').forEach(function(p) {
+      p.style.display = (cat === 'all' || p.dataset.category === cat) ? '' : 'none';
+    });
+  };
+  // Set 'all' as default active
+  document.querySelector('.cf-all').style.fontWeight = 'bold';
+})();
+</script>

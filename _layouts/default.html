@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+<div class="site-wrapper">
+
+  <!-- ══ HEADER ══ -->
+  <header class="site-header">
+    <div class="header-grid">
+      <div>
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="site-role">innovation director &nbsp;·&nbsp; open source pioneer &nbsp;·&nbsp; oxford engineer &nbsp;·&nbsp; finos innersource sig lead</p>
+        <p class="site-bio">"Writing at the intersection of open source, HFOSS, innersource, AI, and sustainability — rooted in faith, driven by craft."</p>
+        <div class="header-tags">
+          <a href="{{ '/open-source/' | relative_url }}" class="header-tag ht-os">open source</a>
+          <a href="{{ '/innersource/' | relative_url }}" class="header-tag ht-is">innersource</a>
+          <a href="{{ '/ai/' | relative_url }}" class="header-tag ht-ai">ai</a>
+          <a href="{{ '/hfoss/' | relative_url }}" class="header-tag ht-hfoss">hfoss</a>
+          <a href="{{ '/sustainability/' | relative_url }}" class="header-tag ht-sus">sustainability</a>
+          <a href="{{ '/general/' | relative_url }}" class="header-tag ht-gen">general</a>
+        </div>
+      </div>
+      <div class="header-awards">
+        <span class="award-badge">&#x229B; FSF Social Benefit Award 2006</span>
+        <span class="award-badge">&#x229B; MIT GITA Technovator 2007</span>
+        <span class="award-badge">&#x229B; MEng &middot; Magdalen, Oxford</span>
+        <span class="award-badge">&#x229B; Charter Member, OSI</span>
+        <span class="award-badge">&#x229B; Concept Founder, HFOSS</span>
+        <span class="award-badge">&#x229B; FINOS InnerSource SIG Lead</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ NAVIGATION ══ -->
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>log</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url contains 'about' %} class="active"{% endif %}>about</a>
+    <a href="{{ '/publications/' | relative_url }}"{% if page.url contains 'publications' %} class="active"{% endif %}>publications</a>
+    <a href="{{ '/open-source/' | relative_url }}"{% if page.url contains 'open-source' %} class="active"{% endif %}>open source</a>
+    <a href="{{ '/innersource/' | relative_url }}"{% if page.url contains 'innersource' %} class="active"{% endif %}>innersource</a>
+    <a href="{{ '/ai/' | relative_url }}"{% if page.url == '/ai/' %} class="active"{% endif %}>ai</a>
+    <a href="{{ '/hfoss/' | relative_url }}"{% if page.url contains 'hfoss' %} class="active"{% endif %}>hfoss</a>
+    <a href="{{ '/sustainability/' | relative_url }}"{% if page.url contains 'sustainability' %} class="active"{% endif %}>sustainability</a>
+    <a href="{{ '/general/' | relative_url }}"{% if page.url contains 'general' %} class="active"{% endif %}>general</a>
+  </nav>
+
+  <!-- ══ LAYOUT ══ -->
+  <div class="site-layout">
+
+    <!-- ── SIDEBAR ── -->
+    <aside class="site-sidebar">
+
+      <div class="sb-section">
+        <div class="sb-heading">expertise</div>
+        {% for item in site.data.sidebar.expertise %}
+        <div class="sb-item">{{ item }}</div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">award products</div>
+        {% for item in site.data.sidebar.products %}
+        <div class="sb-item">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">current</div>
+        {% for item in site.data.sidebar.current %}
+        <div class="sb-item">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.role }}</a>{% else %}{{ item.role }}{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">past roles</div>
+        {% for item in site.data.sidebar.past %}
+        <div class="sb-item">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.role }}</a>{% else %}{{ item.role }}{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">publications</div>
+        {% for pub in site.data.sidebar.publications %}
+        <div class="pub-sb-item">
+          <strong>{{ pub.venue }}</strong>
+          <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">labels</div>
+        <div class="tag-cloud">
+          {% for tag in site.data.sidebar.labels %}
+          <a href="{{ site.baseurl }}/search/?q={{ tag | url_encode }}" class="cloud-tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">contact</div>
+        <div class="sb-item"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+        <div class="sb-item"><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener">linkedin.com/in/chamindra</a></div>
+        <div class="sb-item"><a href="{{ site.author.github }}" target="_blank" rel="noopener">github.com/chamindra</a></div>
+        <div class="sb-item"><a href="{{ site.author.twitter }}" target="_blank" rel="noopener">@ChamindraS</a></div>
+        <div class="sb-item"><a href="{{ site.author.blogspot }}" target="_blank" rel="noopener">original blogspot</a></div>
+      </div>
+
+    </aside>
+
+    <!-- ── CONTENT ── -->
+    <main class="site-content">
+      {{ content }}
+    </main>
+
+  </div>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="site-footer">
+    <div class="footer-contact">
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &nbsp;&middot;&nbsp;
+      <a href="{{ site.author.linkedin }}" target="_blank" rel="noopener">linkedin.com/in/chamindra</a>
+      &nbsp;&middot;&nbsp;
+      <a href="{{ site.author.github }}" target="_blank" rel="noopener">github.com/chamindra</a>
+    </div>
+    <div class="footer-copy">CHAMINDRA DE SILVA &middot; EST. 2007</div>
+  </footer>
+
+</div>
+</body>
+</html>

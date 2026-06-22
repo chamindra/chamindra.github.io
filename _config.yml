@@ -1,0 +1,34 @@
+title: Chamindra de Silva
+tagline: "Innovation Director · Open Source Pioneer · Oxford Engineer · FINOS InnerSource SIG Lead"
+description: "Writing at the intersection of open source, HFOSS, innersource, AI, and sustainability — rooted in faith, driven by craft."
+url: "https://chamindra.github.io"
+baseurl: ""
+
+author:
+  name: Chamindra de Silva
+  email: chamindra@gmail.com
+  linkedin: "https://uk.linkedin.com/in/chamindra"
+  github: "https://github.com/chamindra"
+  twitter: "https://x.com/chamindras"
+  blogspot: "https://chamindra-de-silva.blogspot.com"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

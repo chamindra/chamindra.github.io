@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header">
+    <div class="post-meta">
+      {% assign cat = page.categories | first %}
+      <span class="post-cat-badge pcb-{{ cat | slugify }}">{{ cat }}</span>
+      <span class="post-date">{{ page.date | date: "%Y.%m.%d" }}</span>
+    </div>
+    <h1 class="post-title"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.blogspot_url %}
+    <div class="post-ref">&#x229B; Originally published on Blogspot: <a href="{{ page.blogspot_url }}" target="_blank" rel="noopener">{{ page.blogspot_url }}</a></div>
+    {% endif %}
+    {% if page.linkedin_url %}
+    <div class="post-ref">&#x229B; LinkedIn reference: <a href="{{ page.linkedin_url }}" target="_blank" rel="noopener">linkedin.com/in/chamindra</a></div>
+    {% endif %}
+    {% if page.acm_url %}
+    <div class="post-ref">&#x229B; ACM Digital Library: <a href="{{ page.acm_url }}" target="_blank" rel="noopener">{{ page.acm_ref }}</a></div>
+    {% endif %}
+    {% if page.external_url %}
+    <div class="post-ref">&#x229B; Full article: <a href="{{ page.external_url }}" target="_blank" rel="noopener">{{ page.external_label | default: page.external_url }}</a></div>
+    {% endif %}
+    {% if page.tags %}
+    <div class="post-ref" style="margin-top:0.75rem">
+      Labels:
+      {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/search/?q={{ tag | url_encode }}" style="color:rgba(239,159,39,0.6);text-decoration:none;margin-right:5px;font-family:monospace;font-size:9px;letter-spacing:0.06em">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </footer>
+</article>
