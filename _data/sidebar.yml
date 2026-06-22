@@ -1,11 +1,10 @@
 expertise:
-  - Innovation Director
   - AI Governance & Compliance
   - Lean Product Engineering
   - Open Innovation Models
   - Open / API Banking
   - Open Source Models
-  - Inner Source Models
+  - InnerSource Models
   - Cloud / k8s Engineering
   - Technical Program Management
   - AI-native Solutions Architecture
@@ -30,7 +29,7 @@ current:
     url: https://github.com/finos/InnerSource
   - role: Director, Sahana Foundation
     url: https://www.sahanafoundation.org/
-  - role: DevOps PO & InnerSource Lead, Citi UK
+  - role: Solution Architect - High Performance Architecture, Citi UK
     url: https://uk.linkedin.com/in/chamindra
   - role: Advisor, Eco-Friendly Web Alliance
     url: https://ecofriendlyweb.org/people/chamindra-de-silva/
@@ -50,7 +49,7 @@ past:
     url: https://www.fsf.org/news/social-benefit-award-2006
   - role: VP Engineering, Virtusa
     url: http://www.virtusa.com
-  - role: CTO, Sahana Foundation
+  - role: CTO - Board Member, Sahana Foundation
     url: https://sahanafoundation.org/
   - role: Co-Chair W3C EIIF IG
     url: https://www.w3.org/2005/Incubator/eiif/

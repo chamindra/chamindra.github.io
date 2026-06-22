@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="feed-header">
+  <div class="feed-label">// {{ page.category_label | default: page.category }}</div>
+</div>
+
+<div class="brass-sep"></div>
+
+{% assign cat_posts = site.posts | where_exp: "p", "p.categories contains page.category" %}
+
+{% if cat_posts.size == 0 %}
+  <div class="cat-empty">No transmissions yet in this channel.</div>
+{% else %}
+  {% for post in cat_posts %}
+  {% assign cat = post.categories | first %}
+  <div class="post-item">
+    <div class="post-meta">
+      <span class="post-cat-badge pcb-{{ cat | slugify }}">{{ cat }}</span>
+      <span class="post-date">{{ post.date | date: "%Y.%m" }}</span>
+      {% assign age_secs = post.date | date: "%s" | plus: 0 %}
+      {% assign now_secs = site.time | date: "%s" | plus: 0 %}
+      {% assign diff_secs = now_secs | minus: age_secs %}
+      {% if diff_secs < 15552000 %}<span class="post-new">new</span>{% endif %}
+    </div>
+    <div class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</div>
+    <div class="post-sources">
+      {% if post.blogspot_url %}<a href="{{ post.blogspot_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; blogspot</a>{% endif %}
+      {% if post.linkedin_url %}<a href="{{ post.linkedin_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; linkedin</a>{% endif %}
+      {% if post.external_url %}<a href="{{ post.external_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; {{ post.external_label | default: 'article' }}</a>{% endif %}
+      {% if post.acm_url %}<a href="{{ post.acm_url }}" class="source-link" target="_blank" rel="noopener">&#x229B; acm</a>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}

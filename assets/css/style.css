@@ -549,6 +549,15 @@ body {
 }
 .pub-link:hover { color: var(--teal); }
 
+/* ── CATEGORY EMPTY STATE ── */
+.cat-empty {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  padding: 2rem 0;
+}
+
 /* ── FOOTER ── */
 .site-footer {
   background: var(--bg-secondary);
