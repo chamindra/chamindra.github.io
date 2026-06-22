@@ -17,22 +17,7 @@
     <div class="header-grid">
       <div>
         <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p class="site-role">innovation director &nbsp;·&nbsp; open source pioneer &nbsp;·&nbsp; oxford engineer &nbsp;·&nbsp; finos aigf maintainer &nbsp;·&nbsp; finos innersource sig lead</p>
-        <p class="site-bio">"Writing at the intersection of open source, HFOSS, innersource, AI, and sustainability — rooted in faith, driven by craft."</p>
-        <div class="header-tags">
-          <a href="{{ '/open-source/' | relative_url }}" class="header-tag ht-os">open source</a>
-          <a href="{{ '/innersource/' | relative_url }}" class="header-tag ht-is">innersource</a>
-          <a href="{{ '/ai/' | relative_url }}" class="header-tag ht-ai">ai</a>
-          <a href="{{ '/hfoss/' | relative_url }}" class="header-tag ht-hfoss">hfoss</a>
-          <a href="{{ '/sustainability/' | relative_url }}" class="header-tag ht-sus">sustainability</a>
-          <a href="{{ '/general/' | relative_url }}" class="header-tag ht-gen">general</a>
-        </div>
-      </div>
-      <div class="header-awards">
-        <span class="award-badge award-badge-highlight">&#x229B; FINOS AIGF Maintainer</span>
-        <span class="award-badge award-badge-highlight">&#x229B; FINOS InnerSource SIG Lead</span>
-        <span class="award-badge">&#x229B; Concept Founder, HFOSS</span>
-        <span class="award-badge">&#x229B; MEng &middot; Magdalen, Oxford</span>
+        <p class="site-role">{{ site.tagline }}</p>
       </div>
     </div>
   </header>
@@ -40,14 +25,9 @@
   <!-- ══ NAVIGATION ══ -->
   <nav class="site-nav">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>log</a>
-    <a href="{{ '/about/' | relative_url }}"{% if page.url contains 'about' %} class="active"{% endif %}>about</a>
     <a href="{{ '/publications/' | relative_url }}"{% if page.url contains 'publications' %} class="active"{% endif %}>publications</a>
-    <a href="{{ '/open-source/' | relative_url }}"{% if page.url contains 'open-source' %} class="active"{% endif %}>open source</a>
-    <a href="{{ '/innersource/' | relative_url }}"{% if page.url contains 'innersource' %} class="active"{% endif %}>innersource</a>
-    <a href="{{ '/ai/' | relative_url }}"{% if page.url == '/ai/' %} class="active"{% endif %}>ai</a>
-    <a href="{{ '/hfoss/' | relative_url }}"{% if page.url contains 'hfoss' %} class="active"{% endif %}>hfoss</a>
-    <a href="{{ '/sustainability/' | relative_url }}"{% if page.url contains 'sustainability' %} class="active"{% endif %}>sustainability</a>
-    <a href="{{ '/general/' | relative_url }}"{% if page.url contains 'general' %} class="active"{% endif %}>general</a>
+    <a href="{{ '/patents/' | relative_url }}"{% if page.url contains 'patents' %} class="active"{% endif %}>patents</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url contains 'about' %} class="active"{% endif %}>about</a>
   </nav>
 
   <!-- ══ LAYOUT ══ -->
