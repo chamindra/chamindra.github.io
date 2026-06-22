@@ -11,6 +11,12 @@ layout: default
     <h1 class="post-title"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1>
   </header>
 
+  {% if page.cover_image %}
+  <div class="post-cover">
+    <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
   <div class="post-body">
     {{ content }}
   </div>
@@ -24,6 +30,9 @@ layout: default
     {% endif %}
     {% if page.acm_url %}
     <div class="post-ref">&#x229B; ACM Digital Library: <a href="{{ page.acm_url }}" target="_blank" rel="noopener">{{ page.acm_ref }}</a></div>
+    {% endif %}
+    {% if page.slideshare_url %}
+    <div class="post-ref">&#x229B; Slides: <a href="{{ page.slideshare_url }}" target="_blank" rel="noopener">SlideShare</a></div>
     {% endif %}
     {% if page.external_url %}
     <div class="post-ref">&#x229B; Full article: <a href="{{ page.external_url }}" target="_blank" rel="noopener">{{ page.external_label | default: page.external_url }}</a></div>
