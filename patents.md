@@ -4,7 +4,7 @@ title: Patents
 permalink: /patents/
 ---
 
-GenAI patents granted through Citibank, N.A., spanning AI compliance validation, agentic AI governance, and multi-model monitoring. Full inventor listings at [Google Patents](https://patents.google.com/?inventor=Chamindra+Desilva&assignee=Citibank).
+GenAI patents spanning AI compliance validation, agentic AI governance, and multi-model monitoring. Full inventor listings at [Google Patents](https://patents.google.com/?inventor=Chamindra+Desilva&assignee=Citibank).
 
 ## Lead Patents — Regulatory Compliance
 
@@ -52,5 +52,16 @@ GenAI patents granted through Citibank, N.A., spanning AI compliance validation,
   <div class="pub-abstract">A proactive validation layer that continuously monitors and evaluates the actions of autonomous agents using generative AI models. The system receives constraints and operational data defining agent parameters, dynamically evaluates agent behaviours for compliance with predefined boundaries and regulatory standards, maps agents to risk categories, generates expected actions, identifies gaps between expected and actual outputs, and modifies proposed actions through AI-driven analysis — enabling agents to execute refined actions while preventing unauthorised behaviour and maintaining audit trails for transparency.</div>
   <div class="pub-links">
     <a href="https://patents.google.com/patent/US12450494B1/en" class="pub-link" target="_blank" rel="noopener">&#x229B; Google Patents</a>
+  </div>
+</div>
+
+## Earlier Patents
+
+<div class="pub-entry">
+  <div class="pub-venue">WO2008152530A1 · Filed April 13, 2008 · Published December 18, 2008</div>
+  <div class="pub-title"><a href="https://patents.google.com/patent/WO2008152530A1/en" target="_blank" rel="noopener">Modular Flexible Expandable Upgradable Play-Pen</a></div>
+  <div class="pub-abstract">A playpens system offering shape adaptability to suit various floor spaces. The design can be folded and collapsed for storage and transport, and accommodates optional add-on modules — gates, playhouses, toy boxes — for upgradability. Frames utilise hollow PVC, soft wood, or metal construction with netted fabric panels, connected via specialised L-Sockets and Frame Connectors for assembly into various geometric configurations. Co-invented with Basil K.P.B.I. de Silva.</div>
+  <div class="pub-links">
+    <a href="https://patents.google.com/patent/WO2008152530A1/en" class="pub-link" target="_blank" rel="noopener">&#x229B; Google Patents</a>
   </div>
 </div>
