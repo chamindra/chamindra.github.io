@@ -1,5 +1,6 @@
 expertise:
   - Innovation Director
+  - AI Governance & Compliance
   - Lean Product Engineering
   - Open Innovation Models
   - Open / API Banking
@@ -23,20 +24,16 @@ products:
     url: https://magdalenmeansbusiness.magd.ox.ac.uk/power-of-software/
 
 current:
+  - role: Maintainer, FINOS AI Governance Framework
+    url: https://github.com/finos/ai-governance-framework
   - role: FINOS InnerSource SIG Lead
     url: https://github.com/finos/InnerSource
   - role: Director, Sahana Foundation
     url: https://www.sahanafoundation.org/
-  - role: DevOps PO & InnerSource Lead, CitiBank UK
+  - role: DevOps PO & InnerSource Lead, Citi UK
     url: https://uk.linkedin.com/in/chamindra
   - role: Advisor, Eco-Friendly Web Alliance
     url: https://ecofriendlyweb.org/people/chamindra-de-silva/
-  - role: Charter Member, OSI
-    url: https://opensource.org/
-  - role: MIT GITA Technovator 2007
-    url: http://web.mit.edu/technovators/gita/2007_winners_grassroots.html
-  - role: FSF Social Benefit Award 2006
-    url: https://www.fsf.org/news/social-benefit-award-2006
   - role: Concept Founder, HFOSS
     url: http://www.hfoss.org/
   - role: MEng, Magdalen College, Oxford
@@ -45,6 +42,12 @@ current:
     url: https://www.st-helens.org.uk/
 
 past:
+  - role: Charter Member, OSI
+    url: https://opensource.org/
+  - role: MIT GITA Technovator 2007
+    url: http://web.mit.edu/technovators/gita/2007_winners_grassroots.html
+  - role: FSF Social Benefit Award 2006
+    url: https://www.fsf.org/news/social-benefit-award-2006
   - role: VP Engineering, Virtusa
     url: http://www.virtusa.com
   - role: CTO, Sahana Foundation
