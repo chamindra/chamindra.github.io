@@ -6,9 +6,15 @@ permalink: /about/
 
 ## Chamindra de Silva
 
-Chamindra de Silva is an award-winning Innovation Director and Product Engineering Expert with 20+ years of multi-sector experience across Banking, FinTech, Insurance, ISV, Government, and INGO. He is passionate about incubating high-energy, globally distributed teams to create great products using Lean Startup and Agile methodologies.
+Chamindra de Silva is an **AI-native Solutions Architect and Certified Technical Product Owner** with 20+ years of experience leading high-performance engineering and transformation initiatives across global financial institutions. His expertise spans **GenAI, regulatory compliance, InnerSource, and DevOps**, with platforms and contributions recognised by **Gartner, MIT, Stevie Awards, BIAN, UNDP, and the Free Software Foundation**.
 
-He has built four internationally award-winning products in Open Banking, Open Innovation, Education, and Humanitarian Response, with recognition from Gartner, MIT, UNDP, the Free Software Foundation, the Open Source Initiative (OSI), and the World Information Technology and Services Alliance (WITSA).
+He holds **awarded patents in Generative AI (2024–2025)** focused on regulatory compliance and AI governance systems. At **Citi**, he works within High Performance Architecture, integrating GenAI into low-latency financial systems while embedding governance, explainability, and secure SDLC practices.
+
+He is a **Maintainer of the [FINOS AI Governance Framework](https://github.com/finos/ai-governance-framework)**, **Co-Lead of the FINOS InnerSource SIG**, and member of the **STAC AI Working Group**, shaping industry standards for responsible and high-performance AI adoption in financial services.
+
+**Published work** spans FINOS, CACM, IEEE, IDRC, UN ESCAP, CMI; co-authored a book on Open Source Software Engineering; holds an **MEng in Engineering and Computer Science from the University of Oxford**.
+
+His current focus: **shaping how GenAI is safely integrated into regulated financial environments—designing architectures where performance, governance, and intelligent automation coexist.**
 
 ## Faith & Values
 
@@ -16,9 +22,13 @@ Chamindra is a [Christian](https://www.st-helens.org.uk/), and his faith shapes 
 
 He believes technology serves best when it is accountable, transparent, and governed by people who care about its effects on those least able to protect themselves from its failures.
 
+## GenAI Integration in Regulated Finance
+
+At Citi's High Performance Architecture team, Chamindra integrates GenAI capabilities into ultra-low-latency trading and settlement systems—a domain where milliseconds matter and governance cannot be an afterthought. His work demonstrates how foundation models, RAG pipelines, and agentic workflows can enhance financial decision-making, risk assessment, and operational intelligence while maintaining explainability, auditability, and compliance.
+
 ## AI Governance
 
-Chamindra is a **Maintainer of the [FINOS AI Governance Framework](https://github.com/finos/ai-governance-framework)** (AIGF) — an open-source, community-developed framework for governing the deployment of AI systems in financial services, hosted by the Fintech Open Source Foundation. He works alongside maintainers from Citi, Morgan Stanley, NatWest, and Scott Logic to build practical, operational governance processes that financial institutions can actually use.
+As a **Maintainer of the [FINOS AI Governance Framework](https://github.com/finos/ai-governance-framework)** (AIGF), Chamindra leads the development of practical governance tooling for AI deployment in financial services. He works alongside maintainers from Citi, Morgan Stanley, NatWest, and Scott Logic to build operational governance processes that financial institutions can actually use.
 
 His contributions to the AIGF span three areas:
 
@@ -30,9 +40,9 @@ His contributions to the AIGF span three areas:
 
 As an AI-native Solutions Architect and Certified Technical Product Owner, Chamindra explores how open source principles apply to the governance of foundation models, LLMs, and AI infrastructure. He advocates for transparency in training data, open weights, and OSI-compliant licensing as the baseline for trustworthy AI.
 
-## InnerSource
+## InnerSource & DevOps
 
-As [FINOS InnerSource SIG Lead](https://github.com/finos/InnerSource) and DevOps Product Owner & InnerSource Lead at Citi UK, Chamindra works to bring open source culture — contribution norms, transparent governance, meritocratic participation — inside large enterprise environments. Financial institutions face unique challenges of code duplication and organisational silos that InnerSource directly addresses.
+As **Co-Lead of the [FINOS InnerSource SIG](https://github.com/finos/InnerSource)** and **DevOps Product Owner & InnerSource Lead at Citi UK**, Chamindra brings open source culture—contribution norms, transparent governance, meritocratic participation—into large enterprise environments. Financial institutions face unique challenges of code duplication, regulatory silos, and organisational fragmentation that InnerSource directly addresses, enabling shared engineering excellence and faster time-to-value across business units.
 
 ## Open Source & HFOSS
 
@@ -44,9 +54,13 @@ He is a Charter Member of the [Open Source Initiative (OSI)](https://opensource.
 
 A passionate advocate of Sustainable Innovation, Chamindra first spoke on the topic at the UN launch of the Sustainable Development Goals (SDGs) in 2015. He serves as an Advisor to the [Eco-Friendly Web Alliance](https://ecofriendlyweb.org/people/chamindra-de-silva/) and believes technology and innovation must serve the long-term wellbeing of both people and planet.
 
+## Community & Standards
+
+Chamindra is an active member of the **STAC AI Working Group**, contributing to standards for fair, transparent, and auditable computation in AI systems. He participates in open source governance through the **Open Source Initiative (OSI)** and maintains deep engagement with BIAN (Banking Industry Architecture Network) on the intersection of API standards, microservices architecture, and AI integration in financial services.
+
 ## Education
 
-Chamindra holds an MEng in Engineering and Computer Science from [Magdalen College, University of Oxford](https://www.magd.ox.ac.uk/), and is professionally certified in agile product management and cloud engineering. His work has been published in ACM, IEEE, IDRC, UN ESCAP, and CMI, and he has co-authored a book on open source software engineering.
+Chamindra holds an **MEng in Engineering and Computer Science** from [Magdalen College, University of Oxford](https://www.magd.ox.ac.uk/), and holds professional certifications in agile product management and cloud engineering.
 
 ## Career
 
