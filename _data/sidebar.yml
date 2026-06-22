@@ -1,3 +1,23 @@
+current:
+  - role: Solution Architect — GenAI & High Perf. Architecture, Citi UK
+    url: https://uk.linkedin.com/in/chamindra
+  - role: Maintainer, FINOS AI Governance Framework
+    url: https://github.com/finos/ai-governance-framework
+  - role: FINOS InnerSource SIG Co-Lead
+    url: https://github.com/finos/InnerSource
+  - role: STAC AI Working Group Member
+    url: https://stacresearch.com/
+  - role: Director, Sahana Foundation
+    url: https://www.sahanafoundation.org/
+  - role: Advisor, Eco-Friendly Web Alliance
+    url: https://ecofriendlyweb.org/people/chamindra-de-silva/
+  - role: Concept Founder, HFOSS
+    url: http://www.hfoss.org/
+  - role: MEng, Magdalen College, Oxford
+    url: https://www.magd.ox.ac.uk/
+  - role: Values — Christian
+    url: https://www.st-helens.org.uk/
+
 expertise:
   - AI Governance & Compliance
   - Lean Product Engineering
@@ -10,10 +30,47 @@ expertise:
   - AI-native Solutions Architecture
   - Certified Technical Product Owner
 
+awards:
+  - year: "2019"
+    title: "Gold Stevie — Game Changer, Digital Disruption"
+    url: https://stevieawards.com/aba/2019-american-business-awards-winners
+  - year: "2018"
+    title: "Stevie — Redefining Banking & FinTech"
+    url: https://stevieawards.com/aba
+  - year: "2014"
+    title: "Japan JASTECA Award"
+    url: null
+  - year: "2012"
+    title: "WISTA Global Excellence Award"
+    url: null
+  - year: "2010"
+    title: "Gartner Cool Vendor — Risk & Compliance"
+    url: null
+  - year: "2007"
+    title: "MIT GITA Technovator Award"
+    url: http://web.mit.edu/technovators/gita/2007_winners_grassroots.html
+  - year: "2006"
+    title: "FSF Social Benefit Award"
+    url: https://www.fsf.org/news/social-benefit-award-2006
+  - year: "2006"
+    title: "SourceForge Project of the Month"
+    url: https://sourceforge.net/blog/
+
+patents:
+  - title: "2 GenAI Patents — Regulatory Compliance"
+    detail: "Lead inventor · 2024–2025"
+    url: https://uk.linkedin.com/in/chamindra
+  - title: "11 GenAI Co-Patents — AI Applications"
+    detail: "Co-inventor · 2025–2026"
+    url: https://uk.linkedin.com/in/chamindra
+  - title: "European Patent Office"
+    detail: "Search Report holder"
+    url: null
+
 products:
   - name: Sahana Open Source DMS
     url: https://sahanafoundation.org/about/
-  - name: Open Innovation Platform
+  - name: Open Innovation Platform (APIX)
     url: https://apixplatform.com/static/about/
   - name: Akura School Management
     url: https://sourceforge.net/projects/akura/
@@ -22,47 +79,28 @@ products:
   - name: Magdalen Means Business Exhibit
     url: https://magdalenmeansbusiness.magd.ox.ac.uk/power-of-software/
 
-current:
-  - role: Maintainer, FINOS AI Governance Framework
-    url: https://github.com/finos/ai-governance-framework
-  - role: FINOS InnerSource SIG Lead
-    url: https://github.com/finos/InnerSource
-  - role: Director, Sahana Foundation
-    url: https://www.sahanafoundation.org/
-  - role: Solution Architect - High Performance Architecture, Citi UK
-    url: https://uk.linkedin.com/in/chamindra
-  - role: Advisor, Eco-Friendly Web Alliance
-    url: https://ecofriendlyweb.org/people/chamindra-de-silva/
-  - role: Concept Founder, HFOSS
-    url: http://www.hfoss.org/
-  - role: MEng, Magdalen College, Oxford
-    url: https://www.magd.ox.ac.uk/
-  - role: Values — Christian
-    url: https://www.st-helens.org.uk/
-
 past:
   - role: Charter Member, OSI
     url: https://opensource.org/
-  - role: MIT GITA Technovator 2007
-    url: http://web.mit.edu/technovators/gita/2007_winners_grassroots.html
-  - role: FSF Social Benefit Award 2006
-    url: https://www.fsf.org/news/social-benefit-award-2006
   - role: VP Engineering, Virtusa
     url: http://www.virtusa.com
-  - role: CTO - Board Member, Sahana Foundation
+  - role: CTO & Board Member, Sahana Foundation
     url: https://sahanafoundation.org/
   - role: Co-Chair W3C EIIF IG
     url: https://www.w3.org/2005/Incubator/eiif/
   - role: Head of Platforms, xLabs (Virtusa)
     url: null
-  - role: Member, ISCRAM
-    url: https://iscram.org/
   - role: Acting Exec Director, LSF
     url: https://opensource.lk/
+  - role: Member, ISCRAM
+    url: https://iscram.org/
   - role: Board Advisor, HFOSS Project
     url: http://www.hfoss.org/index.php/people
 
 publications:
+  - venue: "FINOS · 2025"
+    title: "InnerSource Value Metrics"
+    url: "https://github.com/finos/InnerSource"
   - venue: "CACM · Dec 2010"
     title: "A Global Collaboration to Deploy Help to China"
     url: "http://portal.acm.org/citation.cfm?id=1859235"
@@ -78,9 +116,6 @@ publications:
   - venue: "OSBR"
     title: "Humanitarian Free and Open Source Software"
     url: "http://www.osbr.ca/ojs/index.php/osbr/article/view/1220/1168"
-  - venue: "TechRepublic / ZDNet"
-    title: "10 Questions: Selecting Open Source"
-    url: "http://downloads.techrepublic.com.com/abstract.aspx?docid=1238425"
   - venue: "PeaceIT / CMI"
     title: "The Concept of Humanitarian FOSS"
     url: "http://www.cmi.fi/files/peaceIT_3.pdf"
@@ -112,3 +147,4 @@ labels:
   - ai
   - fintech
   - finos
+  - patents

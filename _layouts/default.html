@@ -33,9 +33,6 @@
         <span class="award-badge award-badge-highlight">&#x229B; FINOS InnerSource SIG Lead</span>
         <span class="award-badge">&#x229B; Concept Founder, HFOSS</span>
         <span class="award-badge">&#x229B; MEng &middot; Magdalen, Oxford</span>
-        <span class="award-badge">&#x229B; FSF Social Benefit Award 2006</span>
-        <span class="award-badge">&#x229B; MIT GITA Technovator 2007</span>
-        <span class="award-badge">&#x229B; Charter Member, OSI</span>
       </div>
     </div>
   </header>
@@ -60,9 +57,38 @@
     <aside class="site-sidebar">
 
       <div class="sb-section">
+        <div class="sb-heading">current</div>
+        {% for item in site.data.sidebar.current %}
+        <div class="sb-item">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.role }}</a>{% else %}{{ item.role }}{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
         <div class="sb-heading">expertise</div>
         {% for item in site.data.sidebar.expertise %}
         <div class="sb-item">{{ item }}</div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">awards</div>
+        {% for item in site.data.sidebar.awards %}
+        <div class="sb-item sb-award">
+          <span class="sb-award-year">{{ item.year }}</span>
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="sb-section">
+        <div class="sb-heading">patents</div>
+        {% for item in site.data.sidebar.patents %}
+        <div class="sb-item sb-patent">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          <span class="sb-patent-detail">{{ item.detail }}</span>
+        </div>
         {% endfor %}
       </div>
 
@@ -71,15 +97,6 @@
         {% for item in site.data.sidebar.products %}
         <div class="sb-item">
           {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
-        </div>
-        {% endfor %}
-      </div>
-
-      <div class="sb-section">
-        <div class="sb-heading">current</div>
-        {% for item in site.data.sidebar.current %}
-        <div class="sb-item">
-          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.role }}</a>{% else %}{{ item.role }}{% endif %}
         </div>
         {% endfor %}
       </div>
